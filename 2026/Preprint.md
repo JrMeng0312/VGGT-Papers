@@ -1,0 +1,31 @@
+# 2026 Preprint Papers
+
+#### [1] VGGT-SLAM 2.0: Real-time Dense Feed-forward Scene Reconstruction
+- **🧑‍🔬 作者**：Dominic Maggio, Luca Carlone
+- **🏫 单位**：MIT
+- **🔗 链接**：[[中英摘要](../abs/2601.19887.md)] [[arXiv:2601.19887](https://arxiv.org/abs/2601.19887)] [Code]
+- **📝 说明**：实时前馈 SLAM，位姿误差比 VGGT-SLAM 减少约 23%
+
+#### [2] VGG-T3: Offline Feed-Forward 3D Reconstruction at Scale
+- **🧑‍🔬 作者**：Sven Elflein, Ruilong Li, Sérgio Agostinho, Zan Gojcic, Laura Leal-Taixé, Qunjie Zhou, Aljosa Osep
+- **🏫 单位**：NVIDIA ⟐ Technical University of Munich
+- **🔗 链接**：[[中英摘要](../abs/2602.23361.md)] [[arXiv:2602.23361](https://arxiv.org/abs/2602.23361)] [Code]
+- **📝 说明**：线性复杂度，处理 1000 张图像仅需 54 秒
+
+#### [3] HD-VGGT: High-Resolution Visual Geometry Transformer
+- **🧑‍🔬 作者**：Tianrun Chen, Yuanqi Hu, Yidong Han, Hanjie Xu, Deyi Ji, Qi Zhu, Chunan Yu, Xin Zhang, Cheng Chen, Chaotao Ding, Ying Zang, Xuanfu Li, Jin Ma, Lanyun Zhu
+- **🏫 单位**：Zhejiang University of Technology ⟐ KOKONI3D
+- **🔗 链接**：[[中英摘要](../abs/2603.27222.md)] [[arXiv:2603.27222](https://arxiv.org/abs/2603.27222)] [Code]
+- **📝 说明**：双分支设计，低分辨率粗糙几何 + 高分辨率细节增强
+
+#### [4] PanoVGGT: Feed-Forward 3D Reconstruction from Panoramic Imagery
+- **🧑‍🔬 作者**：Yijing Guo, Mengjun Chao, Luo Wang, Tianyang Zhao, Haizhao Dai, Yingliang Zhang, Jingyi Yu, Yujiao Shi
+- **🏫 单位**：ShanghaiTech University
+- **🔗 链接**：[[中英摘要](../abs/2603.17571.md)] [[arXiv:2603.17571](https://arxiv.org/abs/2603.17571)] [Code]
+- **📝 说明**：全景图像前馈式 3D 重建，球面感知位置编码
+
+#### [5] VGGT-SLAM++
+- **🧑‍🔬 作者**：Avilasha Mandal, Rajesh Kumar, Sudarshan Sunil Harithas, Chetan Arora
+- **🏫 单位**：IIT Delhi
+- **🔗 链接**：[[中英摘要](../abs/2604.06830.md)] [[arXiv:2604.06830](https://arxiv.org/abs/2604.06830)] [Code]
+- **📝 说明**：完整 VGGT 视觉 SLAM 系统，含 DEM 图模块与闭环检测
