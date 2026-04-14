@@ -29,3 +29,15 @@
 - **🏫 单位**：IIT Delhi
 - **🔗 链接**：[[中英摘要](../abs/2604.06830.md)] [[arXiv:2604.06830](https://arxiv.org/abs/2604.06830)] [Code]
 - **📝 说明**：完整 VGGT 视觉 SLAM 系统，含 DEM 图模块与闭环检测
+
+#### [6] VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection
+- **🧑‍🔬 作者**：Yang Cao, Feize Wu, Dave Zhenyu Chen, Yingji Zhong, Lanqing Hong, Dan Xu
+- **🏫 单位**：HKUST ⟐ Huawei Noah's Ark Lab
+- **🔗 链接**：[[中英摘要](../abs/2603.00912.md)] [[arXiv:2603.00912](https://arxiv.org/abs/2603.00912)] [Code]
+- **📝 说明**：无传感器几何的多视图室内 3D 目标检测，利用 VGGT 内部语义 + 几何先验
+
+#### [7] VGGT-World: Transforming VGGT into an Autoregressive Geometry World Model
+- **🧑‍🔬 作者**：Xiangyu Sun, Shijie Wang, Fengyi Zhang, Lin Liu, Caiyan Jia, Ziying Song, Zi Huang, Yadan Luo
+- **🏫 单位**：Beijing Jiaotong University ⟐ University of Queensland
+- **🔗 链接**：[[中英摘要](../abs/2603.12655.md)] [[arXiv:2603.12655](https://arxiv.org/abs/2603.12655)] [Code]
+- **📝 说明**：将 VGGT 转化为自回归几何世界模型，速度快 3.6-5 倍，仅 0.43B 参数

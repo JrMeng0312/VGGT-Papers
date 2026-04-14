@@ -41,3 +41,21 @@
 - **🏫 单位**：UCL (University College London)
 - **🔗 链接**：[[中英摘要](../abs/2511.20343.md)] [[arXiv:2511.20343](https://arxiv.org/abs/2511.20343)] [Code]
 - **📝 说明**：度量尺度前馈重建，稀疏体素后端
+
+#### [8] Faster VGGT with Block-Sparse Global Attention
+- **🧑‍🔬 作者**：Chung-Shien Brian Wang, Christian Schmidt, Jens Piekenbrinck, Bastian Leibe
+- **🏫 单位**：RWTH Aachen University
+- **🔗 链接**：[[中英摘要](../abs/2509.07120.md)] [[arXiv:2509.07120](https://arxiv.org/abs/2509.07120)] [Code]
+- **📝 说明**：块稀疏注意力替换全局注意力，推理加速 4 倍，无需重训练
+
+#### [9] VGGT-X: When VGGT Meets Dense Novel View Synthesis
+- **🧑‍🔬 作者**：Yang Liu, Chuanchen Luo, Zimo Tang, Junran Peng, Zhaoxiang Zhang
+- **🏫 单位**：Chinese Academy of Sciences
+- **🔗 链接**：[[中英摘要](../abs/2509.25191.md)] [[arXiv:2509.25191](https://arxiv.org/abs/2509.25191)] [Code]
+- **📝 说明**：将 VGGT 扩展至稠密新视角合成，支持 1000+ 图像，无需 COLMAP
+
+#### [10] Reloc-VGGT: Visual Re-localization with Geometry Grounded Transformer
+- **🧑‍🔬 作者**：Tianchen Deng, Wenhua Wu, Kunzhen Wu, Guangming Wang, Siting Zhu, Shenghai Yuan, Xun Chen, Guole Shen, Zhe Liu, Hesheng Wang
+- **🏫 单位**：Shanghai Jiao Tong University
+- **🔗 链接**：[[中英摘要](../abs/2512.21883.md)] [[arXiv:2512.21883](https://arxiv.org/abs/2512.21883)] [Code]
+- **📝 说明**：基于 VGGT 的视觉重定位，多视图早期融合 + 稀疏掩码注意力
