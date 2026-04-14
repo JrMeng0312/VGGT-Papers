@@ -1,8 +1,8 @@
 # VGGT & Feed-Forward 3D Reconstruction Papers
 
 [![更新日志](https://img.shields.io/badge/💡-更新日志-informational.svg?style=flat)](Changelog.md)
-[![发现错误](https://img.shields.io/badge/🐛-发现错误-yellow.svg?style=flat)](https://github.com/YOUR_USERNAME/VGGT-Papers/issues)
-[![提交修改](https://img.shields.io/badge/👐-提交修改-brightgreen.svg?style=flat)](https://github.com/YOUR_USERNAME/VGGT-Papers/pulls)
+[![发现错误](https://img.shields.io/badge/🐛-发现错误-yellow.svg?style=flat)](https://github.com/JrMeng0312/VGGT-Papers/issues)
+[![提交修改](https://img.shields.io/badge/👐-提交修改-brightgreen.svg?style=flat)](https://github.com/JrMeng0312/VGGT-Papers/pulls)
 
 > 收集 VGGT（Visual Geometry Grounded Transformer）及相关前馈式三维重建论文，持续更新，欢迎交流讨论。
 
