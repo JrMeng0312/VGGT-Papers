@@ -21,8 +21,8 @@
 | [VGGT 核心](#vggt-核心) | VGGT 原始论文及官方扩展 |
 | [VGGT 变体与加速](#vggt-变体与加速) | SwiftVGGT, FastVGGT, HD-VGGT, PanoVGGT, Faster VGGT, QuantVGGT 等 |
 | [VGGT 应用](#vggt-应用) | VGGT-SLAM, DriveVGGT, VGGT-X, VGGT-World, VGGT-Det, GPA-VGGT 等 |
-| [前馈式三维重建基础](#前馈式三维重建基础) | DUSt3R, MASt3R, CUT3R, Fast3R, Speed3R 等 |
-| [单目几何估计](#单目几何估计) | MoGe, Depth Anything 3 等 |
+| [前馈式三维重建基础](#前馈式三维重建基础) | DUSt3R, MASt3R, CUT3R, Fast3R, Speed3R, Depth Anything 3 等 |
+| [单目几何估计](#单目几何估计) | MoGe 等 |
 | [综述](#综述) | 综述论文 |
 
 #### **📖 Survey**
@@ -39,15 +39,15 @@
 - **🔗 链接**：[[中英摘要](./abs/2503.11651.md)] [[arXiv:2503.11651](https://arxiv.org/abs/2503.11651)] [[Code](https://github.com/facebookresearch/vggt)]
 - **📝 说明**：🏆 CVPR 2025 Best Paper Award
 
+---
+
+## VGGT 变体与加速
+
 #### [2] VGG-T3: Offline Feed-Forward 3D Reconstruction at Scale
 - **🧑‍🔬 作者**：Sven Elflein, Ruilong Li, Sérgio Agostinho, Zan Gojcic, Laura Leal-Taixé, Qunjie Zhou, Aljosa Osep
 - **🏫 单位**：NVIDIA ⟐ Technical University of Munich
 - **🔗 链接**：[[中英摘要](./abs/2602.23361.md)] [[arXiv:2602.23361](https://arxiv.org/abs/2602.23361)] [Code]
 - **📝 说明**：VGGT 的可扩展离线重建版本，线性复杂度，处理 1000 张图像仅需 54 秒
-
----
-
-## VGGT 变体与加速
 
 #### [3] SwiftVGGT: A Scalable Visual Geometry Grounded Transformer for Large-Scale Scenes
 - **🧑‍🔬 作者**：Jungho Lee, Minhyeok Lee, Sunghun Yang, Minseok Kang, Sangyoun Lee
@@ -243,21 +243,21 @@
 - **🔗 链接**：[[中英摘要](./abs/2603.08055.md)] [[arXiv:2603.08055](https://arxiv.org/abs/2603.08055)] [Code]
 - **📝 说明**：稀疏双分支注意力前馈重建，1000 视图序列 12.4 倍推理加速
 
----
-
-## 单目几何估计
-
-#### [34] MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision
-- **🧑‍🔬 作者**：Ruicheng Wang, Sicheng Xu, Cassie Dai, Jianfeng Xiang, Yu Deng, Xin Tong, Jiaolong Yang
-- **🏫 单位**：Microsoft Research Asia
-- **🔗 链接**：[[中英摘要](./abs/2410.19115.md)] [[arXiv:2410.19115](https://arxiv.org/abs/2410.19115)] [[Code](https://github.com/microsoft/MoGe)]
-- **📝 说明**：🏆 CVPR 2025 Oral — 仿射不变单目几何估计
-
-#### [35] Depth Anything 3: Recovering the Visual Space from Any Views
+#### [34] Depth Anything 3: Recovering the Visual Space from Any Views
 - **🧑‍🔬 作者**：Haotong Lin, Sili Chen, Junhao Liew, Donny Y. Chen, Zhenyu Li, Guang Shi, Jiashi Feng, Bingyi Kang
 - **🏫 单位**：ByteDance
 - **🔗 链接**：[[中英摘要](./abs/2511.10647.md)] [[arXiv:2511.10647](https://arxiv.org/abs/2511.10647)] [[Code](https://github.com/DepthAnything/Depth-Anything-V3)]
 - **📝 说明**：超越 VGGT 的位姿精度 44.3%，几何精度 25.1%
+
+---
+
+## 单目几何估计
+
+#### [35] MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision
+- **🧑‍🔬 作者**：Ruicheng Wang, Sicheng Xu, Cassie Dai, Jianfeng Xiang, Yu Deng, Xin Tong, Jiaolong Yang
+- **🏫 单位**：Microsoft Research Asia
+- **🔗 链接**：[[中英摘要](./abs/2410.19115.md)] [[arXiv:2410.19115](https://arxiv.org/abs/2410.19115)] [[Code](https://github.com/microsoft/MoGe)]
+- **📝 说明**：🏆 CVPR 2025 Oral — 仿射不变单目几何估计
 
 ---
 
