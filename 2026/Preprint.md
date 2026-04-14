@@ -41,3 +41,15 @@
 - **🏫 单位**：Beijing Jiaotong University ⟐ University of Queensland
 - **🔗 链接**：[[中英摘要](../abs/2603.12655.md)] [[arXiv:2603.12655](https://arxiv.org/abs/2603.12655)] [Code]
 - **📝 说明**：将 VGGT 转化为自回归几何世界模型，速度快 3.6-5 倍，仅 0.43B 参数
+
+#### [8] GPA-VGGT: Adapting VGGT to Large Scale Localization by Self-Supervised Learning with Geometry and Physics Aware Loss
+- **🧑‍🔬 作者**：Yangfan Xu, Lilian Zhang, Xiaofeng He, Yugui Shen, Pengdong Wu, Wenqi Wu, Jun Mao
+- **🏫 单位**：未标注
+- **🔗 链接**：[[中英摘要](../abs/2601.16885.md)] [[arXiv:2601.16885](https://arxiv.org/abs/2601.16885)] [[Code](https://github.com/X-yangfan/GPA-VGGT)]
+- **📝 说明**：自监督 VGGT 大规模定位，几何与物理感知联合优化
+
+#### [9] Speed3R: Sparse Feed-forward 3D Reconstruction Models
+- **🧑‍🔬 作者**：Weining Ren, Xiao Tan, Kai Han
+- **🏫 单位**：The University of Hong Kong
+- **🔗 链接**：[[中英摘要](../abs/2603.08055.md)] [[arXiv:2603.08055](https://arxiv.org/abs/2603.08055)] [Code]
+- **📝 说明**：稀疏双分支注意力前馈重建，1000 视图序列 12.4 倍推理加速

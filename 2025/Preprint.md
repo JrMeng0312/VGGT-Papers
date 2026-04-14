@@ -59,3 +59,9 @@
 - **🏫 单位**：Shanghai Jiao Tong University
 - **🔗 链接**：[[中英摘要](../abs/2512.21883.md)] [[arXiv:2512.21883](https://arxiv.org/abs/2512.21883)] [Code]
 - **📝 说明**：基于 VGGT 的视觉重定位，多视图早期融合 + 稀疏掩码注意力
+
+#### [11] QuantVGGT: Quantized Visual Geometry Grounded Transformer
+- **🧑‍🔬 作者**：Weilun Feng, Haotong Qin, Mingqiang Wu, Chuanguang Yang, Yuqi Li, Xiangqi Li, Zhulin An, Libo Huang, Yulun Zhang, Michele Magno, Yongjun Xu
+- **🏫 单位**：Chinese Academy of Sciences ⟐ ETH Zurich ⟐ Shanghai Jiao Tong University
+- **🔗 链接**：[[中英摘要](../abs/2509.21302.md)] [[arXiv:2509.21302](https://arxiv.org/abs/2509.21302)] [[Code](https://github.com/wlfeng0509/QuantVGGT)]
+- **📝 说明**：VGGT 首个后训练量化框架，4-bit 实现近无损压缩，内存降低 3.7 倍

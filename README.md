@@ -21,13 +21,13 @@
 
   - [[CVPR](./2025/CVPR.md)] (5 篇)
     [[ICLR](./2025/ICLR.md)] (1 篇)
-    [[Preprint](./2025/Preprint.md)] (10 篇)
+    [[Preprint](./2025/Preprint.md)] (11 篇)
     [[Other](./2025/Other.md)] (1 篇)
 
 - **2026**
 
   - [[ICLR](./2026/ICLR.md)] (1 篇)
-    [[Preprint](./2026/Preprint.md)] (7 篇)
+    [[Preprint](./2026/Preprint.md)] (9 篇)
     [[Other](./2026/Other.md)] (4 篇)
 
 #### **📂 分类索引**
@@ -35,8 +35,8 @@
 | 分类 | 说明 |
 |------|------|
 | [VGGT 核心](./2025/CVPR.md) | VGGT 原始论文及官方扩展 |
-| [VGGT 变体与加速](#vggt-变体与加速) | SwiftVGGT, FastVGGT, HD-VGGT, PanoVGGT, Faster VGGT 等 |
-| [VGGT 应用](#vggt-应用) | VGGT-SLAM, DriveVGGT, VGGT-X, VGGT-World, VGGT-Det 等 |
+| [VGGT 变体与加速](#vggt-变体与加速) | SwiftVGGT, FastVGGT, HD-VGGT, PanoVGGT, Faster VGGT, QuantVGGT 等 |
+| [VGGT 应用](#vggt-应用) | VGGT-SLAM, DriveVGGT, VGGT-X, VGGT-World, VGGT-Det, GPA-VGGT 等 |
 | [前馈式三维重建基础](#前馈式三维重建基础) | DUSt3R, MASt3R, CUT3R, Fast3R 等 |
 | [单目几何估计](#单目几何估计) | MoGe, Depth Anything 3 等 |
 | [综述](#综述) | 综述论文 |
@@ -94,6 +94,12 @@
 - **🏫 单位**：RWTH Aachen University
 - **🔗 链接**：[[中英摘要](./abs/2509.07120.md)] [[arXiv:2509.07120](https://arxiv.org/abs/2509.07120)] [Code]
 - **📝 说明**：块稀疏注意力替换全局注意力，推理加速 4 倍，无需重训练
+
+#### [8] QuantVGGT: Quantized Visual Geometry Grounded Transformer
+- **🧑‍🔬 作者**：Weilun Feng, Haotong Qin, Mingqiang Wu, Chuanguang Yang, Yuqi Li, Xiangqi Li, Zhulin An, Libo Huang, Yulun Zhang, Michele Magno, Yongjun Xu
+- **🏫 单位**：Chinese Academy of Sciences ⟐ ETH Zurich ⟐ Shanghai Jiao Tong University
+- **🔗 链接**：[[中英摘要](./abs/2509.21302.md)] [[arXiv:2509.21302](https://arxiv.org/abs/2509.21302)] [[Code](https://github.com/wlfeng0509/QuantVGGT)]
+- **📝 说明**：VGGT 首个后训练量化框架，4-bit 实现近无损压缩，内存降低 3.7 倍
 
 ---
 
@@ -183,6 +189,12 @@
 - **🔗 链接**：[[DOI](https://doi.org/10.1117/12.3102112)]
 - **📝 说明**：SPIE IWAIT 2026 — 基于 VGGT 的零样本文本到 3D 物体生成
 
+#### [22] GPA-VGGT: Adapting VGGT to Large Scale Localization by Self-Supervised Learning with Geometry and Physics Aware Loss
+- **🧑‍🔬 作者**：Yangfan Xu, Lilian Zhang, Xiaofeng He, Yugui Shen, Pengdong Wu, Wenqi Wu, Jun Mao
+- **🏫 单位**：未标注
+- **🔗 链接**：[[中英摘要](./abs/2601.16885.md)] [[arXiv:2601.16885](https://arxiv.org/abs/2601.16885)] [[Code](https://github.com/X-yangfan/GPA-VGGT)]
+- **📝 说明**：自监督 VGGT 大规模定位，几何与物理感知联合优化
+
 ---
 
 ## 前馈式三维重建基础
@@ -240,6 +252,12 @@
 - **🏫 单位**：UCL (University College London)
 - **🔗 链接**：[[中英摘要](./abs/2511.20343.md)] [[arXiv:2511.20343](https://arxiv.org/abs/2511.20343)] [Code]
 - **📝 说明**：度量尺度前馈重建，稀疏体素后端
+
+#### [21] Speed3R: Sparse Feed-forward 3D Reconstruction Models
+- **🧑‍🔬 作者**：Weining Ren, Xiao Tan, Kai Han
+- **🏫 单位**：The University of Hong Kong
+- **🔗 链接**：[[中英摘要](./abs/2603.08055.md)] [[arXiv:2603.08055](https://arxiv.org/abs/2603.08055)] [Code]
+- **📝 说明**：稀疏双分支注意力前馈重建，1000 视图序列 12.4 倍推理加速
 
 ---
 
